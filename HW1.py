@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-# Name: Lidor Pahima
-# ID: 206735961
 # In this class, we will implement the kNN algorithm and predict the class labels of the test set.
 def Normalize(x, min_val, max_val):  # Normalization Formula: (X - Xmin) / (Xmax - Xmin)
     return (x - min_val) / (max_val - min_val)
